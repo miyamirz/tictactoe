@@ -45,14 +45,14 @@ Api End Point: https://api.ipify.org?format=json
 We use Lemnisk as a service to track user analytics and we have recently migrated to lemnisk from segment. 
 ###### some of the user events tracked for accounts ui using lemnisk service:
 
-*accounts_signin:customer_click*  (possible methods: otp, password, Google, Facebook)
-*accounts_signin:customer_signed-in*
-*accounts_login:signin-page_forgot-password*
-*accounts_customer:new-customer_created*
-*accounts_customer:existing-customer_updated*
-*accounts_login:forgot-password_valid-email/phone*
-*accounts_lead-form:otp_verified*
-*accounts_login:otp_verified*
+*accounts_signin:customer_click*  (possible methods: otp, password, Google, Facebook)  
+*accounts_signin:customer_signed-in*  
+*accounts_login:signin-page_forgot-password*  
+*accounts_customer:new-customer_created*  
+*accounts_customer:existing-customer_updated*  
+*accounts_login:forgot-password_valid-email/phone*  
+*accounts_lead-form:otp_verified*  
+*accounts_login:otp_verified*  
 *accounts_resend-otp:customer_click*
 
 ## **Steps to run the Application in local:**
